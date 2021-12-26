@@ -1,0 +1,149 @@
+TAGS
+<p>  </p> - paragraph
+<head> </head> - head element (to store all technical information)
+<body> </body> - body element (to store information what needs to be seen in browser)
+<div> </div> - block element 
+<h1 h2 h3 h4 h5 h6> - headers
+<span> </span> - to change style for specified data in lines
+<em> </em> - emphasized text (same as italic)
+<i> </i> - italic text
+<b> </b> - bold text
+<strong> </strong> - important text (same as bold)
+<small> </small> - defines smaller text
+<mark> </mark> - defines element that should be marked
+<del> </del> - defined as strikethrough text
+<ins> </ins> - shows underlined text
+<sub> </sub> - defines subscript text
+<sup> </sup> - defines superscript text
+<br> - spacing
+<ul> </ul> - unordered list (needs li) shows dots
+<li> </li> - Individual list
+<ol> </ol> - ordered list (needs li) shows numbers of every element
+<dl> </dl> - description list (contains dt and dd)
+<dt> </dt> - defines a term in a description list
+<dd> </dd> - describes the term in a description list
+<img> - to add imeges
+<video> </video> - to add video
+<html> </html> - for correct code style
+<title> </title> - title of the document (written in head)
+<a> </a> - needed for links
+<table> </table> - container for tabular data
+<tr> </tr> - container to create a row of a table
+<td> </td> - table data element (to add date in table)
+<th> </th> - to add title heading in table
+<thead> </thead> - groups the header content in a table
+<tbody> </tbody> - groups the body content in a table
+<tfoot> </tfoot> - groups the footer content in a table
+<caption> </caption> - defines caption of the table
+<colgroup> </colgroup> - specifies a group of one or more columns in a table for  better formatting
+<col> - specifies column properties for each column within a <colgroup> element
+<form> </form> - to add information and send it to server
+<input> - form element which creates a text field , buttons, switches and flags
+<label> </label> - displays test that is written between the opening and closing tags
+<section> </section> - creates a section of a document (often used for news blocks, contact info, tabs)
+<article> </article> - specifies the content of the site such as news, article, blog post, forum, etc.
+<header> </header> - specifies the "header" of the site or section, which usually contains the heading.
+<footer> </footer> - sets the "footer" of the site or section, it can contain the name of the author, date of the document.
+<figure> </figure> - specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+<details> </details> - used to store information that can be hidden or shown at the request of the user
+<main> </main> - intended for the main content of the document
+<nav> </nav> - defines navigation links
+<summary> </summary> - Specifies a title for the <details> tag that can be clicked to expand information
+<hr> - draw horizontal line
+<select> </select> - allows to create an interface element in the form of a dropdown list
+<option> </option> -  defines individual list items (in select)
+<datalist> </datalist> - Creates a list of options that can be selected as you type in a text box
+<textarea> </textarea> - form where you can enter text
+<pre> </pre> - defines preformatted text (used to display poems for example)
+<blockquote> </blockquote> - defines a section that is quoted
+<q> </q> - defines a quote that is marked with “ ”
+<abbr> </abbr> - defines an abbreviation (HTML, CSS)
+<address> </address> - defines contact information like email, url, phone number, social media etc
+<cite> </cite> - defines a title of some work (book, picture, poem)
+<bdo> </bdo> - bi-directional override (override text direction ex:“right to left”) (needs dir)
+<map> </map> - container for <area>. Used to create image map
+<area> -  defines clickable area of the image map
+<picture> </picture> - allows to display different pictures for different devices (more flexible)
+<link> - links to an external document such as a stylesheet or font
+<iframe> </iframe> - is used to display a web page within a web page
+<script> </script> - is used to define a client-side script (JavaScript)
+<noscript> </noscript> - defines an alternate content to be displayed to users that have disabled scripts in their browser or have a browser that doesn't support scripts
+<base> - specifies the base URL and/or target for all relative URLs in a page (needs href and target)
+<code> </code> - is designed to display one or more lines of text that is program code 
+<kbd> </kbd> - used to indicate text that is typed on the keyboard or for the name of keys 
+<samp> </samp> - used to display text that is the result of the output of a computer program or script
+<var> </var> - used to highlight variables of computer programs or mathematical expression
+<fieldset> </fieldset> - used to group related data in a form
+<legend> </legend> - element defines a caption for the <fieldset> element
+<output> </output> - defines the area in which information is displayed, mainly with the help of scripts
+<button> </button> - defines a clickable button
+<optgroup> </optgroup> - defines a group of related options in a drop-down list
+<canvas> </canvas> - creates an area in which JavaScript can be used to draw different objects, display images, transform them, and change properties
+<svg> </svg> - container for SVG graphics. Defines vector-based graphics in XML format
+<track> - allows authors to specify a text path for display elements
+<object> </object> - tells the browser how to load and display objects that the browser doesn't natively understand
+<embed> - tells the browser how to load and display objects that the browser doesn't natively understand
+
+ATTRIBUTES
+id – unique name of element, to change style
+src – source attribute
+alt – to display text if image is not available
+href – link the path or address of a file or link
+target – shows how the link should open(_self, _blank,_parent,_top)
+colspan – span columns (in td)
+rowspan - to span multiple rows (in td)
+class – style class
+required – required form field
+lang – declares the language of the web page (used in html tag)
+width and height – provide size (for images for example)
+style – used to add styles to element
+title – defines some extra information about the element if you point on it in browser
+cite – address that indicates the source of the quote
+usemap - connects the image and map of this image
+dir - specifies the direction and display of text - from left to right or from right to left
+type - defines the type of element (button, input, object etc)
+icon - specifies a picture that will represent the command
+action - defines the action to be performed when the form is submitted
+method - attribute specifies the HTTP method to be used when submitting the form data(get,post)
+autocomplete - specifies whether a form should have autocomplete on or off
+novalidate - cancels the built-in validation of the data entered by the user in the form for correctness
+accept-charset - specifies the character encodings used for form submission
+enctype - specifies how the form-data should be encoded when submitting it to the server (only for method="post")
+rel - specifies the relationship between a linked resource and the current document
+selected - defines a pre-selected option
+size - specify the number of visible values in select option
+multiple - allow the user to select more than one value
+checked - specifies that an input field should be pre-selected when the page loads (for type="checkbox" or type="radio")
+disabled - specifies that an input field should be disabled
+max - specifies the maximum value for an input field
+min - specifies the minimum value for an input field
+maxlength - specifies the maximum number of character for an input field
+pattern - specifies a regular expression to check the input value against
+readonly - specifies that an input field is read only (cannot be changed)
+step - specifies the legal number intervals for an input field
+value - specifies the default value for an input field
+placeholder - outputs text inside a form field, which disappears when focus is received 
+autofocus - specifies that an input field should automatically get focus when the page loads
+form - associates a button with a form by its identifier. Such a link is necessary when the button is not located inside the <form>
+formaction - determines the address of the form processor  
+formenctype - sets the way to encode form data when it is sent to the server 
+formmethod - the attribute tells the browser which method to use to submit form data to the server (post or get)
+formtarget - specifies the window or frame into which the result returned by the form processor will be loaded
+controls - adds video controls, like play, pause, and volume
+autoplay - to start a video automatically
+muted - to let video start playing muted
+
+
+HTML Entities
+    non-breaking space	&nbsp;
+<	less than	&lt;
+>	greater than	&gt;
+&	ampersand	&amp;
+"	double quotation mark	&quot;	
+'	single quotation mark (apostrophe)	&apos;
+¢	cent	&cent;
+£	pound	&pound;
+¥	yen	&yen;
+€	euro	&euro;
+©	copyright	&copy;
+®	registered trademark	&reg;

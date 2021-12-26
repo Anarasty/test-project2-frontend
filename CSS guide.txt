@@ -1,0 +1,36 @@
+SELECTORS
+# - for id
+. - for class
+element.class - for special class for the "element"
+* - for all elements
+element - for all "element" elements
+element, element - for grouping
+
+
+background-image:url() - add an image to your background
+background-repeat - to let background repeat it self or not
+background-size - set size of the background (cover - to cover entire element)
+background-attachment - to make sure the background always covers the entire element (fixed)
+background-color – colors the background of the element
+
+border - adds borders to table
+border-collapse - can make borders collapse into single border
+border-radius - makes corners of the border rounded
+border-style - set style of the border (dotted, dashed, solid, double, groove, ridge, inset, outset)
+border-color - set the color of a border
+border-spacing - th change space between table cells
+
+color – colors the text
+
+float - determines on which side the element will be aligned(left,right,none)
+
+font-family – selects the font type
+font-size – defines the font’s size
+
+text-align – used to align text
+text-decoration - adds text decoration above the text(line,tyle,color)
+
+
+padding – defines space between text and border
+margin – defines space outside the border
+

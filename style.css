@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    color: aqua;
+}
+
+#firstP {
+    color: blue;
+    font-size: 25px;
+}
+
+.second {
+    color: brown;
+}
+
+p.second {
+    color: cadetblue;
+    font-size: 20px;
+}
+
+* {
+    border-style: ridge;
+    border-color: chocolate;
+}
+
+h2, h3 {
+    text-align: center;
+}
