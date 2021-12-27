@@ -1,6 +1,13 @@
+body {
+    background-image: url("bg1.jpg");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-attachment: fixed;
+    background-size: cover;
+}
 h1 {
     text-align: center;
-    color: aqua;
+    color: rgb(255, 0, 0);
 }
 
 #firstP {
@@ -9,12 +16,14 @@ h1 {
 }
 
 .second {
+    background-color: rgba(255, 251, 0, 0.37);
     color: brown;
 }
 
 p.second {
     color: cadetblue;
     font-size: 20px;
+    opacity: 0.3;
 }
 
 * {

@@ -12,6 +12,10 @@ background-repeat - to let background repeat it self or not
 background-size - set size of the background (cover - to cover entire element)
 background-attachment - to make sure the background always covers the entire element (fixed)
 background-color – colors the background of the element
+background-position - used to specify the position of the background image
+background-clip - defines how the background color or background image will be displayed below the box borders
+background-origin - sets the area of the background 
+
 
 border - adds borders to table
 border-collapse - can make borders collapse into single border
@@ -34,3 +38,4 @@ text-decoration - adds text decoration above the text(line,tyle,color)
 padding – defines space between text and border
 margin – defines space outside the border
 
+opacity - specifies the opacity/transparency of an element
