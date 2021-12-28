@@ -23,6 +23,7 @@ border-radius - makes corners of the border rounded
 border-style - set style of the border (dotted, dashed, solid, double, groove, ridge, inset, outset)
 border-color - set the color of a border
 border-spacing - th change space between table cells
+border-width - sets the width of the four borders
 
 color – colors the text
 
