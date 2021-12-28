@@ -16,7 +16,6 @@ background-position - used to specify the position of the background image
 background-clip - defines how the background color or background image will be displayed below the box borders
 background-origin - sets the area of the background 
 
-
 border - adds borders to table
 border-collapse - can make borders collapse into single border
 border-radius - makes corners of the border rounded
@@ -38,17 +37,35 @@ font-family – selects the font type
 font-size – defines the font’s size
 
 text-align – used to align text
+text-align-last - specifies how to align the last line of a text
 text-decoration - adds text decoration above the text(line,tyle,color)
+text-transform - used to specify uppercase and lowercase letters in text
+text-indent- used to specify the indentation of the first line of text
+text-justify - determines what type of alignment should be applied to the text when text-align: justify; applies to the element
+text-overflow - specifies how overflowed content that is not displayed should be signaled to the user
+text-shadow - specifies the shadow effect added to text
 
+letter-spacing - 3px
+line-height - used to specify the space between lines
 
 padding – defines space between text and border (left, right, top, bottom)(can't be negative)
 margin – defines space outside the border (left, right, top, bottom)(can be negative)
 
+overflow - controls what happens to content that is too big to fit into an area
 opacity - specifies the opacity/transparency of an element
 
+white-space - specifies how white-space inside an element is handled
+word-spacing - used to specify the space between the words in text
 width - sets the width of an element
+
 height - sets the height of an element
+
 max-width -sets the maximum width of an element
 min-width - sets the minimum width of an element
 max-height - sets the maximum height of an element
 min-height - sets the minimum height of an element
+
+direction - used to change the text direction of an element
+unicode-bidi - determines how bidirectional text in a document is handled
+
+vertical-align - sets the vertical alignment of an element

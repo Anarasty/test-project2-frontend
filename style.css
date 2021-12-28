@@ -24,11 +24,14 @@ h1 {
     outline-color: saddlebrown;
     outline-width: medium;
     outline-offset: 5px;
+    
 }
 
 #firstP {
-    color: blue;
+    color: rgb(255, 255, 255);
     font-size: 25px;
+    text-shadow: 3px -3px 2px rgb(156, 156, 156);
+    /* text-shadow: 0px 0px 3px blue; neon glow */
 }
 
 .second {
@@ -77,4 +80,20 @@ h3 {
     padding-left: 0px;
     padding-right: 290px;
     /* width: 150px; */
+}
+
+p.pTest1 {
+    text-align-last: justify;
+    text-indent: 30px;
+    line-height: 1.5;
+    word-spacing: -5px;
+    white-space: nowrap;
+}
+
+p.pTest2 {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    letter-spacing: 9px;
 }
