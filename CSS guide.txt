@@ -25,6 +25,11 @@ border-color - set the color of a border
 border-spacing - th change space between table cells
 border-width - sets the width of the four borders
 
+outline-style - specifies the style of the outline (dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden)
+outline-color - sets the color of an outline
+outline-offset - specifies the space between an outline and the edge or border of an element
+outline-width - sets the width of an outline
+
 color – colors the text
 
 float - determines on which side the element will be aligned(left,right,none)
