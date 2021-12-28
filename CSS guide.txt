@@ -36,7 +36,14 @@ text-align – used to align text
 text-decoration - adds text decoration above the text(line,tyle,color)
 
 
-padding – defines space between text and border
-margin – defines space outside the border (left, right, top, bottom)
+padding – defines space between text and border (left, right, top, bottom)(can't be negative)
+margin – defines space outside the border (left, right, top, bottom)(can be negative)
 
 opacity - specifies the opacity/transparency of an element
+
+width - sets the width of an element
+height - sets the height of an element
+max-width -sets the maximum width of an element
+min-width - sets the minimum width of an element
+max-height - sets the maximum height of an element
+min-height - sets the minimum height of an element
