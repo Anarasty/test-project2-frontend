@@ -37,6 +37,6 @@ text-decoration - adds text decoration above the text(line,tyle,color)
 
 
 padding – defines space between text and border
-margin – defines space outside the border
+margin – defines space outside the border (left, right, top, bottom)
 
 opacity - specifies the opacity/transparency of an element
