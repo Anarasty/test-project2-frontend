@@ -35,6 +35,9 @@ float - determines on which side the element will be aligned(left,right,none)
 
 font-family – selects the font type
 font-size – defines the font’s size
+font-style - specifies the font style for text
+font-weight - pecifies the weight of a font
+font-variant - specifies whether or not a text should be displayed in a small-caps font
 
 text-align – used to align text
 text-align-last - specifies how to align the last line of a text

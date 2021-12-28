@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 body {
     background-image: url("bg1.jpg");
     background-repeat: no-repeat;
@@ -37,6 +39,7 @@ h1 {
 .second {
     background-color: rgba(255, 251, 0, 0.37);
     color: brown;
+    font-variant: small-caps;
 }
 
 p.second {
@@ -46,7 +49,9 @@ p.second {
 }
 
 * {
-    font-family: monospace;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: bold;
 }
 
 h2, h3 {
@@ -87,7 +92,7 @@ p.pTest1 {
     text-indent: 30px;
     line-height: 1.5;
     word-spacing: -5px;
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
 p.pTest2 {
