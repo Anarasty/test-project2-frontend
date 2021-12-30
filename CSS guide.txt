@@ -24,15 +24,24 @@ border-color - set the color of a border
 border-spacing - specifies the distance between the borders of adjacent cells
 border-width - sets the width of the four borders
 
+box-sizing - defines how the width and height of an element are calculated: should they include padding and borders, or not
+
+display -  sets whether an element is treated as a block or inline element
+
 outline-style - specifies the style of the outline (dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden)
 outline-color - sets the color of an outline
 outline-offset - specifies the space between an outline and the edge or border of an element
 outline-width - sets the width of an outline
+overflow - specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area
+overflow-wrap - specifies whether or not the browser can break lines with long words, if they overflow its container
+overflow-x - specifies what to do with the left/right edges of the content if it overflows the element's content area
+overflow-y - specifies what to do with the top/bottom edges of the content if it overflows the element's content area
+opacity - specifies the opacity/transparency of an element
 
 empty-cells - sets whether or not to display borders on empty cells in a table
 
+clear - sets whether an element must be moved below (cleared) floating elements that precede it
 color – colors the text
-
 caption-side - specifies the placement of a table caption(top, bottom)
 
 float - determines on which side the element will be aligned(left,right,none)
@@ -61,11 +70,9 @@ list-style-type - specifies the type of list item marker(circle, square, upper-r
 list-style-image - specifies an image as the list item marker(needs url)
 list-style-position - specifies the position of the list-item markers(outside, inside)
 
+position - specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky)
 padding – defines space between text and border (left, right, top, bottom)(can't be negative)
 margin – defines space outside the border (left, right, top, bottom)(can be negative)
-
-overflow - controls what happens to content that is too big to fit into an area
-opacity - specifies the opacity/transparency of an element
 
 white-space - specifies how white-space inside an element is handled
 word-spacing - used to specify the space between the words in text
@@ -82,3 +89,6 @@ direction - used to change the text direction of an element
 unicode-bidi - determines how bidirectional text in a document is handled
 
 vertical-align - sets the vertical alignment of an element
+visibility - specifies whether or not an element should be visible
+
+z-index - specifies the stack order of an element (which element should be placed in front of, or behind, the others)

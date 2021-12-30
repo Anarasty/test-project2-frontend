@@ -105,7 +105,6 @@ p.pTest2 {
 }
 
 .linkOne {
-    
     text-decoration: none;
     background-color: rgb(255, 255, 255);
     color: black;
@@ -168,3 +167,20 @@ p.pTest2 {
 .table1 th:hover, td:hover {
     background-color: yellow;
 }
+
+.div1 {
+    background-color: wheat;
+    width: 200px;
+    height: 60px;
+    overflow: auto;
+}
+
+.orange {
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+
+/* .pTest3 {
+    clear: both;
+} */
