@@ -21,7 +21,7 @@ border-collapse - can make borders collapse into single border
 border-radius - makes corners of the border rounded
 border-style - set style of the border (dotted, dashed, solid, double, groove, ridge, inset, outset)
 border-color - set the color of a border
-border-spacing - th change space between table cells
+border-spacing - specifies the distance between the borders of adjacent cells
 border-width - sets the width of the four borders
 
 outline-style - specifies the style of the outline (dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden)
@@ -29,7 +29,11 @@ outline-color - sets the color of an outline
 outline-offset - specifies the space between an outline and the edge or border of an element
 outline-width - sets the width of an outline
 
+empty-cells - sets whether or not to display borders on empty cells in a table
+
 color – colors the text
+
+caption-side - specifies the placement of a table caption(top, bottom)
 
 float - determines on which side the element will be aligned(left,right,none)
 
@@ -47,6 +51,8 @@ text-indent- used to specify the indentation of the first line of text
 text-justify - determines what type of alignment should be applied to the text when text-align: justify; applies to the element
 text-overflow - specifies how overflowed content that is not displayed should be signaled to the user
 text-shadow - specifies the shadow effect added to text
+
+table-layout - sets the algorithm used to lay out <table> cells, rows, and columns
 
 letter-spacing - 3px
 line-height - used to specify the space between lines

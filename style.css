@@ -139,3 +139,32 @@ p.pTest2 {
 .firstList li {
     background-color: thistle;
 }
+.table1 th, td{
+    border-style: solid;
+    border-width: thin;
+    border-color: tomato;
+    border-collapse: collapse;
+    width: 500px;
+    height: 50px;
+    background-color: wheat;
+    vertical-align: bottom;
+    /* text-align: center; */
+    
+}
+
+.table1 {
+    background-color: turquoise;
+    overflow-x: auto;  /* TO MAKE THE TABLE RESPONSIVE */
+}
+
+.table1 td {
+    background-color: white;
+}
+
+.table1 th, td {
+    padding: 10px;
+}
+
+.table1 th:hover, td:hover {
+    background-color: yellow;
+}
