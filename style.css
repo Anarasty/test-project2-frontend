@@ -52,6 +52,7 @@ p.second {
     font-family: 'Roboto Condensed', sans-serif;
     font-style: normal;
     font-weight: bold;
+    /* font-size: 100px; */
 }
 
 h2, h3 {
