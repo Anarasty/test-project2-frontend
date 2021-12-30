@@ -113,7 +113,8 @@ p.pTest2 {
     border-width: thin;
     padding: 3px;
     border-radius: 8px;
-    display: inline-block;
+    /* position: fixed; */
+    /* display: inline-block; */
 }
 
 .linkOne:hover {
@@ -125,4 +126,16 @@ p.pTest2 {
 #iconYoutube {
     color: red;
     font-size: 18px;
+}
+
+.firstList {
+    list-style-type: square;
+    list-style-image: url('css.ico');
+    list-style-position: inside;
+    background-color: tomato;
+    padding: 10px;
+}
+
+.firstList li {
+    background-color: thistle;
 }

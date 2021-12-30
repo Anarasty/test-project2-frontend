@@ -51,6 +51,10 @@ text-shadow - specifies the shadow effect added to text
 letter-spacing - 3px
 line-height - used to specify the space between lines
 
+list-style-type - specifies the type of list item marker(circle, square, upper-romen, lower-alpha)
+list-style-image - specifies an image as the list item marker(needs url)
+list-style-position - specifies the position of the list-item markers(outside, inside)
+
 padding – defines space between text and border (left, right, top, bottom)(can't be negative)
 margin – defines space outside the border (left, right, top, bottom)(can be negative)
 
