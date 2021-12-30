@@ -103,3 +103,26 @@ p.pTest2 {
     text-transform: capitalize;
     letter-spacing: 9px;
 }
+
+.linkOne {
+    
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-style: solid;
+    border-width: thin;
+    padding: 3px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.linkOne:hover {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 120%;
+}
+
+#iconYoutube {
+    color: red;
+    font-size: 18px;
+}
