@@ -6,6 +6,44 @@ element.class - for special class for the "element"
 element - for all "element" elements
 element, element - for grouping
 
+COMBINATORS
+descendant selector (space) - matches all elements that are descendants of a specified element
+child selector (>) - selects all elements that are the children of a specified element
+adjacent sibling selector (+) - used to select an element that is directly after another specific element
+general sibling selector (~) - selects all elements that are next siblings of a specified element
+
+PSEUDO-CLASSES
+:active	(a:active) - selects the active link
+:checked (input:checked) - selects every checked <input> element
+:disabled (input:disabled) - selects every disabled <input> element
+:empty (p:empty) - selects every <p> element that has no children
+:enabled (input:enabled) - selects every enabled <input> element
+:first-child (p:first-child) - selects every <p> elements that is the first child of its parent
+:first-of-type (p:first-of-type) - selects every <p> element that is the first <p> element of its parent
+:focus (input:focus) - selects the <input> element that has focus
+:hover (a:hover) - selects links on mouse over
+:in-range (input:in-range) - selects <input> elements with a value within a specified range
+:invalid (input:invalid) - selects all <input> elements with an invalid value
+:lang(language) (p:lang(it)) - selects every <p> element with a lang attribute value starting with "it"
+:last-child	(p:last-child) - selects every <p> elements that is the last child of its parent
+:last-of-type (p:last-of-type) - selects every <p> element that is the last <p> element of its parent
+:link (a:link) - selects all unvisited links
+:not(selector) (:not(p)) - selects every element that is not a <p> element
+:nth-child(n) (p:nth-child(2)) - selects every <p> element that is the second child of its parent
+:nth-last-child(n) (p:nth-last-child(2)) - selects every <p> element that is the second child of its parent, counting from the last child
+:nth-last-of-type(n) (p:nth-last-of-type(2)) - Selects every <p> element that is the second <p> element of its parent, counting from the last child
+:nth-of-type(n)	(p:nth-of-type(2)) - selects every <p> element that is the second <p> element of its parent
+:only-of-type (p:only-of-type) - selects every <p> element that is the only <p> element of its parent
+:only-child	(p:only-child) - selects every <p> element that is the only child of its parent
+:optional (input:optional) - selects <input> elements with no "required" attribute
+:out-of-range (input:out-of-range) - selects <input> elements with a value outside a specified range
+:read-only (input:read-only) - selects <input> elements with a "readonly" attribute specified
+:read-write (input:read-write) - selects <input> elements with no "readonly" attribute
+:required (input:required) - selects <input> elements with a "required" attribute specified
+:root (root) - Selects the document's root element
+:target	(#news:target) - selects the current active #news element (clicked on a URL containing that anchor name)
+:valid (input:valid) - selects all <input> elements with a valid value
+:visited (a:visited) - selects all visited links
 
 background-image:url() - add an image to your background
 background-repeat - to let background repeat it self or not

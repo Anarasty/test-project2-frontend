@@ -181,6 +181,22 @@ p.pTest2 {
     height: 100px;
 }
 
-/* .pTest3 {
-    clear: both;
-} */
+/* descendant selector */
+.combinator p{
+    background-color: aqua;
+}
+
+/* child selector */
+.combinator > p {
+    color: brown;
+}
+
+/* adjacent sibling selector */
+.combinator + p {
+    background-color: brown;
+}
+
+/* general sibling selector */
+.combinator ~ p {
+    font-style: italic;
+}
