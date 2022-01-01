@@ -204,3 +204,23 @@ p.pTest2 {
 .pseudoP::first-line {
     color: brown;
 }
+
+.pseudoP::first-letter {
+    font-size: 40px;
+}
+
+.pseudoBefore::before {
+    content: url(css.ico);
+}
+
+.pseudoAfter::after {
+    content: url(css.ico);
+}
+::marker {
+    color: azure;
+    font-size: 30px;
+}
+
+::selection {
+    background-color: cornsilk;
+}

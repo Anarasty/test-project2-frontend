@@ -47,7 +47,11 @@ PSEUDO-CLASSES
 
 PSEUDO-ELEMENT
 ::first-line - used to add a special style to the first line of a text
-
+::first-letter - used to add a special style to the first letter of a text
+::before - used to insert some content before the content of an element
+::after - used to insert some content after the content of an element
+::marker - selects the markers of list items
+::selection - matches the portion of an element that is selected by a user
 
 background-image:url() - add an image to your background
 background-repeat - to let background repeat it self or not
