@@ -200,3 +200,7 @@ p.pTest2 {
 .combinator ~ p {
     font-style: italic;
 }
+
+.pseudoP::first-line {
+    color: brown;
+}

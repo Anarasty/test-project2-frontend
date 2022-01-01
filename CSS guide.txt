@@ -45,6 +45,10 @@ PSEUDO-CLASSES
 :valid (input:valid) - selects all <input> elements with a valid value
 :visited (a:visited) - selects all visited links
 
+PSEUDO-ELEMENT
+::first-line - used to add a special style to the first line of a text
+
+
 background-image:url() - add an image to your background
 background-repeat - to let background repeat it self or not
 background-size - set size of the background (cover - to cover entire element)
