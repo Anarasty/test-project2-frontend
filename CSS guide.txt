@@ -6,6 +6,16 @@ element.class - for special class for the "element"
 element - for all "element" elements
 element, element - for grouping
 
+ATTRIBUTE SELECTORS
+[attribute] - used to select elements with a specified attribute
+[attribute="value"] - is used to select elements with a specified attribute and value
+[attribute~="value"] - used to select elements with an attribute value containing a specified word
+[attribute|="value"] - used to select elements with the specified attribute starting with the specified value
+[attribute^="value"] - used to select elements whose attribute value begins with a specified value
+[attribute$="value"] - used to select elements whose attribute value ends with a specified value
+[attribute*="value"] - used to select elements whose attribute value contains a specified value
+
+
 COMBINATORS
 descendant selector (space) - matches all elements that are descendants of a specified element
 child selector (>) - selects all elements that are the children of a specified element
