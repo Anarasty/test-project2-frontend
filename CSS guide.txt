@@ -82,6 +82,11 @@ border-width - sets the width of the four borders
 
 box-sizing - defines how the width and height of an element are calculated: should they include padding and borders, or not
 
+content - used with the ::before and ::after pseudo-elements, to insert generated content
+counter() - returns the current value of the named counter
+counter-increment - increments one or more counter values
+counter-reset - creates or resets one or more counters
+
 display -  sets whether an element is treated as a block or inline element
 
 outline-style - specifies the style of the outline (dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden)
