@@ -79,6 +79,12 @@ border-style - set style of the border (dotted, dashed, solid, double, groove, r
 border-color - set the color of a border
 border-spacing - specifies the distance between the borders of adjacent cells
 border-width - sets the width of the four borders
+border-image - shorthand property for setting all the border-image-* properties
+border-image-source - specifies the path to the image to be used as a border
+border-image-slice - specifies how to slice the border image
+border-image-width - specifies the widths of the border image
+border-image-outset - specifies the amount by which the border image area extends beyond the border box
+border-image-repeat - specifies whether the border image should be repeated, rounded or stretched
 
 box-sizing - defines how the width and height of an element are calculated: should they include padding and borders, or not
 

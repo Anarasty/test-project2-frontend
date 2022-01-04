@@ -224,3 +224,31 @@ p.pTest2 {
 ::selection {
     background-color: cornsilk;
 }
+
+.borderTest1 {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 15px 50px 30px 5px;
+}
+
+.borderTest2 {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 15px 50px 30px;
+}
+
+.borderTest3 {
+    border-radius: 15px / 50px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+
+.borderTest4 {
+    border: 10px solid black;
+    border-image: url(text-image.jpg) 50 round;
+}
+
+.bgTest {
+    border: none;
+    background-image: url(text-image.jpg);
+}
