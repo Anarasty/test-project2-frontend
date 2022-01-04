@@ -248,7 +248,22 @@ p.pTest2 {
     border-image: url(text-image.jpg) 50 round;
 }
 
-.bgTest {
+.bgTest1 {
+    color: azure;
+    width: 150px;
+    height: 500px;
     border: none;
-    background-image: url(text-image.jpg);
+    background-image: url(text-image.jpg), url(bg-test.jpeg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, no-repeat;
+}
+/* <a href="https://www.vecteezy.com/free-vector/black">Black Vectors by Vecteezy</a> */
+.bgTest2 {
+    color: azure;
+    width: 150px;
+    height: 300px;
+    border: none;
+    background-image: url(bg-test.jpeg);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
 }
