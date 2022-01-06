@@ -290,3 +290,52 @@ p.pTest2 {
     /* background-image: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, blue 20deg 30deg); */
     border-radius: 10%;
 }
+
+p.shadow{
+    color: white;
+    text-shadow:  red 4px 4px 5px;
+}
+
+a.shadow{
+    color: red;
+    width: 300px;
+    height: 80px;
+    padding: 15px;
+    background-color: yellow;
+    box-shadow: 10px 10px;
+}
+
+#shadowA {
+    width: 300px;
+    height: 80px;
+    padding: 10px;
+    background-color: aqua;
+    box-shadow: rgb(0, 0, 0) 0px 4px 8px 0px;
+}
+
+.textEffect {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.textEffect2 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+
+    white-space: normal;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-all;
+    text-align: justify;
+    /* text-justify: inter-word; */
+}
+
+.textEffect span{
+    writing-mode: vertical-lr;
+}

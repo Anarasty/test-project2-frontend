@@ -87,6 +87,8 @@ border-image-outset - specifies the amount by which the border image area extend
 border-image-repeat - specifies whether the border image should be repeated, rounded or stretched
 
 box-sizing - defines how the width and height of an element are calculated: should they include padding and borders, or not
+box-shadow - adds one or more shadows to an element
+text-shadow - adds one or more shadows to a text
 
 content - used with the ::before and ::after pseudo-elements, to insert generated content
 counter() - returns the current value of the named counter
@@ -120,6 +122,7 @@ font-weight - pecifies the weight of a font
 font-variant - specifies whether or not a text should be displayed in a small-caps font
 
 text-align – used to align text
+text-justify - specifies how justified text should be aligned and spaced
 text-align-last - specifies how to align the last line of a text
 text-decoration - adds text decoration above the text(line,tyle,color)
 text-transform - used to specify uppercase and lowercase letters in text
@@ -143,7 +146,10 @@ margin – defines space outside the border (left, right, top, bottom)(can be ne
 
 white-space - specifies how white-space inside an element is handled
 word-spacing - used to specify the space between the words in text
+word-wrap - allows long words to be able to be broke and wrap onto the next line
+word-break - specifies line breaking rules for non-CJK scripts
 width - sets the width of an element
+writing-mode - specifies whether lines of text are laid out horizontally or vertically
 
 height - sets the height of an element
 
