@@ -107,6 +107,9 @@ overflow-x - specifies what to do with the left/right edges of the content if it
 overflow-y - specifies what to do with the top/bottom edges of the content if it overflows the element's content area
 opacity - specifies the opacity/transparency of an element
 
+perspective - specifies the perspective on how 3D elements are viewed
+perspective-origin - specifies the bottom position of 3D elements
+
 empty-cells - sets whether or not to display borders on empty cells in a table
 
 clear - sets whether an element must be moved below (cleared) floating elements that precede it
@@ -132,6 +135,14 @@ text-overflow - specifies how overflowed content that is not displayed should be
 text-shadow - specifies the shadow effect added to text
 
 table-layout - sets the algorithm used to lay out <table> cells, rows, and columns
+
+transform - applies 2D or 3D transformation to an element
+transform-origin - allows to change the position of transformed elements
+
+transition-dealy - specifies a delay for the transition effect
+transition-duration - specifies how many seconds or milliseconds a transition effect takes to complete
+transition-property - specifies the name of the CSS property the transition effect is for
+transition-timing-function - specifies the speed curve of the transition effect
 
 letter-spacing - 3px
 line-height - used to specify the space between lines

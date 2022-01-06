@@ -339,3 +339,59 @@ a.shadow{
 .textEffect span{
     writing-mode: vertical-lr;
 }
+
+.translate {
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    transform: translate(10px, 20px);
+}
+
+.rotate1 {
+    margin-top: 50px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    transform: rotate(-60deg);
+}
+
+.scale {
+    margin-top: 50px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    transform: scale(0.5, 0.5);
+}
+
+.skew {
+    margin-top: 50px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    transform: skew(10deg, 10deg);
+}
+
+.rotate2 {
+    margin-top: 50px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    transform: rotateX(70deg);
+    /* transform: rotateY(70deg); */
+    /* transform-style: preserve-3d;
+    perspective: 100px; */
+}
+
+.transition {
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-delay: 1s;
+}
+
+.transition:hover{
+    transform: rotate(360deg);
+}
