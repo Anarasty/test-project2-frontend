@@ -492,3 +492,46 @@ a.shadow{
     height: 200px;
     object-fit: scale-down;
 }
+
+.mask1 {
+    -webkit-mask-image: url(mask-image.png);
+    mask-image: url(mask-image.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+
+.mask2 {
+    -webkit-mask-image: linear-gradient(rgba(255, 255, 255, 0), rgb(0, 0, 0));
+    mask-image: linear-gradient(rgba(255, 255, 255, 0), rgb(0, 0, 0));
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+
+.mask3 {
+    -webkit-mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
+    mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+
+/* NEED TO TEST SVG MASKS */
+
+.button1{
+    text-align: center;
+    border: none;
+    background-color: blanchedalmond;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+.button1:hover {
+    background-color: burlywood;
+    transform: translate(0px, -10px);
+    /* padding: 15px; */
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px;
+    width: 20%;
+}

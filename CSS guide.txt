@@ -186,6 +186,13 @@ min-width - sets the minimum width of an element
 max-height - sets the maximum height of an element
 min-height - sets the minimum height of an element
 
+mask-image - specifies an image to be used as a mask layer for an element
+mask-mode - specifies whether the mask layer image is treated as a luminance mask or as an alpha mask
+mask-origin - specifies the origin position (the mask position area) of a mask layer image
+mask-position - sets the starting position of a mask layer image (relative to the mask position area)
+mask-repeat - specifies how the mask layer image is repeated
+mask-size - specifies the size of a mask layer image
+
 direction - used to change the text direction of an element
 unicode-bidi - determines how bidirectional text in a document is handled
 
