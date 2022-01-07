@@ -96,6 +96,7 @@ border-image-width - specifies the widths of the border image
 border-image-outset - specifies the amount by which the border image area extends beyond the border box
 border-image-repeat - specifies whether the border image should be repeated, rounded or stretched
 
+box-reflect - used to create an image reflection
 box-sizing - defines how the width and height of an element are calculated: should they include padding and borders, or not
 box-shadow - adds one or more shadows to an element
 text-shadow - adds one or more shadows to a text
@@ -117,6 +118,10 @@ overflow-x - specifies what to do with the left/right edges of the content if it
 overflow-y - specifies what to do with the top/bottom edges of the content if it overflows the element's content area
 opacity - specifies the opacity/transparency of an element
 
+object-fit - specifies how an img or video should be resized to fit its container
+object-position - specifies how an img or video should be positioned with x/y coordinates insude its own content box
+
+
 perspective - specifies the perspective on how 3D elements are viewed
 perspective-origin - specifies the bottom position of 3D elements
 
@@ -133,6 +138,8 @@ font-size – defines the font’s size
 font-style - specifies the font style for text
 font-weight - pecifies the weight of a font
 font-variant - specifies whether or not a text should be displayed in a small-caps font
+
+filter - adds visual effects (like blur and saturation) to an element
 
 text-align – used to align text
 text-justify - specifies how justified text should be aligned and spaced
