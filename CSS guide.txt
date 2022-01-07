@@ -63,6 +63,16 @@ PSEUDO-ELEMENT
 ::marker - selects the markers of list items
 ::selection - matches the portion of an element that is selected by a user
 
+animation - shorthand property for setting all the animation properties
+animation-delay - specifies a delay for the start of an animation
+animation-direction - specifies whether an animation should be played forwards, backwards or in alternate cycles
+animation-duration - specifies how long time an animation should take to complete one cycle
+animation-fill-mode - specifies a style for the element when the animation is not playing (before it starts, after it ends, or both)
+animation-iteration-count - specifies the number of times an animation should be played
+animation-name - specifies the name of the @keyframes animation
+animation-play-state - specifies whether the animation is running or paused
+animation-timing-function - specifies the speed curve of the animation
+
 background-image:url() - add an image to your background
 background-repeat - to let background repeat it self or not
 background-size - set size of the background (cover - to cover entire element)

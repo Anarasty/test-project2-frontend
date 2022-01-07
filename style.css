@@ -395,3 +395,31 @@ a.shadow{
 .transition:hover{
     transform: rotate(360deg);
 }
+
+/* ANIMATION TEST */
+
+.animation1 {
+    border: 1px solid red;
+    width: 100px;
+    background-color: aqua;
+    animation-name: animationFirst;
+    font-size: 20px;
+    margin-bottom: 20px;
+    animation-duration: 5s; /*defines how long an animation should take to complete*/
+    animation-delay: 1s; /*specifies a delay for the start of an animation */
+    animation-iteration-count: infinite; /*specifies the number of times an animation should run*/
+    animation-direction: alternate; /*specifies whether an animation should be played forwards, backwards or in alternate cycles */
+    animation-timing-function: ease; /*specifies the speed curve of the animation */
+    /* animation-play-state: paused; */
+    /* SHORTHAND PROPERTY */
+    /* animation: animationFirst 5s ease 1s infinite alternate; */
+}
+
+@keyframes animationFirst {
+    /* from {background-color: aqua;}
+    to {background-color: azure;} */
+    0%   {background-color: red;}
+    25%  {background-color: yellow; font-size: 25px;}
+    50%  {background-color: blue; font-size: 30px;}
+    100% {background-color: green; font-size: 35px;}
+}
