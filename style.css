@@ -423,3 +423,28 @@ a.shadow{
     50%  {background-color: blue; font-size: 30px;}
     100% {background-color: green; font-size: 35px;}
 }
+
+.tooltip {
+    text-align: center;
+    width: 50px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.thisTooltip {
+    background-color: burlywood;
+    visibility: hidden;
+    position: absolute;
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0px 5px;
+    z-index: 1;
+    width: 90px;
+    top: -25px;
+    left: -15px;
+}
+
+.tooltip:hover .thisTooltip{
+    visibility: visible;
+}
