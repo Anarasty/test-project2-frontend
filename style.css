@@ -535,3 +535,30 @@ a.shadow{
     box-shadow: 0px 5px 10px 0px;
     width: 20%;
 }
+
+.pagination {
+    display: block;
+}
+
+.pagination a{
+    text-decoration: none;
+    color: red;
+    border: 2px solid black;
+    padding: 5px 10px;
+    transition: 0.3s;
+    margin: 0px 5px;
+}
+
+.pagination a:hover {
+ background-color: rgb(156, 156, 156);
+ border-color: rgb(255, 255, 255);
+ border-radius: 10px;
+}
+.columnTest {
+    column-count: 2;
+    column-gap: 160px;
+    column-rule-style: double;
+    column-rule-width: 10px;
+    column-rule-color: rgba(255, 251, 0, 0.37);
+    /* column-width: 10px; */
+}

@@ -106,6 +106,15 @@ counter() - returns the current value of the named counter
 counter-increment - increments one or more counter values
 counter-reset - creates or resets one or more counters
 
+column-count - specifies the number of columns an element should be divided into
+column-fill - specifies how to fill columns
+column-gap - specifies the gap between the columns
+column-rule-color - specifies the color of the rule between columns
+column-rule-style - specifies the style of the rule between columns
+column-rule-width - specifies the width of the rule between columns
+column-span - specifies how many columns an element should span across
+column-width - specifies a suggested, optimal width for the columns
+
 display -  sets whether an element is treated as a block or inline element
 
 outline-style - specifies the style of the outline (dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden)
