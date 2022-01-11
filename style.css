@@ -586,3 +586,23 @@ a.shadow{
     --white: rgb(255, 255, 255);
     color: var(--white);
 }
+
+.boxSizing {
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.boxSizing2 {
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 1050px) {
+    .mediaQ {
+        color: blue;
+    }
+}
