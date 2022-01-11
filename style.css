@@ -562,3 +562,27 @@ a.shadow{
     column-rule-color: rgba(255, 251, 0, 0.37);
     /* column-width: 10px; */
 }
+
+.interface {
+    border: 1px solid black;
+    width: 200px;
+    height: auto;
+    resize: horizontal;
+    overflow: auto;
+    outline: 1px solid red;
+    outline-offset: 5px;
+}
+
+/* Testing variables */
+:root {
+    --red: rgb(255, 0, 0);
+}
+
+.variables p {
+    color: var(--red);
+}
+
+.variables h4 {
+    --white: rgb(255, 255, 255);
+    color: var(--white);
+}

@@ -134,6 +134,8 @@ object-position - specifies how an img or video should be positioned with x/y co
 perspective - specifies the perspective on how 3D elements are viewed
 perspective-origin - specifies the bottom position of 3D elements
 
+resize - specifies whether or not an element is resizable by the user
+
 empty-cells - sets whether or not to display borders on empty cells in a table
 
 clear - sets whether an element must be moved below (cleared) floating elements that precede it
