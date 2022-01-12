@@ -122,8 +122,14 @@ display -  sets whether an element is treated as a block or inline element
 flex-direction - specifies the direction of the flexible items inside a flex container
 flex-wrap - specifies whether the flex items should wrap or not, if there is not enough room for them on one flex line
 flex-flow - a shorthand property for flex-direction and flex-wrap
+flex - shorthand property for the flex-grow, flex-shrink, and the flex-basis properties
+flex-basis - specifies the initial length of a flex item
+flex-grow - specifies how much a flex item will grow relative to the rest of the flex items inside the same container
+flex-shrink - specifies how much a flex item will shrink relative to the rest of the flex items inside the same container
 
 justify-content - horizontally aligns the flex items when the items do not use all available space on the main-axis
+
+order - specifies the order of the flex items inside the same container
 
 outline-style - specifies the style of the outline (dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden)
 outline-color - sets the color of an outline
