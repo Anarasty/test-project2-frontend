@@ -73,6 +73,9 @@ animation-name - specifies the name of the @keyframes animation
 animation-play-state - specifies whether the animation is running or paused
 animation-timing-function - specifies the speed curve of the animation
 
+align-content - modifies the behavior of the flex-wrap property, aligns flex lines
+align-items - vertically aligns the flex items when the items do not use all available space on the cross-axis
+
 background-image:url() - add an image to your background
 background-repeat - to let background repeat it self or not
 background-size - set size of the background (cover - to cover entire element)
@@ -99,7 +102,6 @@ border-image-repeat - specifies whether the border image should be repeated, rou
 box-reflect - used to create an image reflection
 box-sizing - defines how the width and height of an element are calculated: should they include padding and borders, or not
 box-shadow - adds one or more shadows to an element
-text-shadow - adds one or more shadows to a text
 
 content - used with the ::before and ::after pseudo-elements, to insert generated content
 counter() - returns the current value of the named counter
@@ -116,6 +118,12 @@ column-span - specifies how many columns an element should span across
 column-width - specifies a suggested, optimal width for the columns
 
 display -  sets whether an element is treated as a block or inline element
+
+flex-direction - specifies the direction of the flexible items inside a flex container
+flex-wrap - specifies whether the flex items should wrap or not, if there is not enough room for them on one flex line
+flex-flow - a shorthand property for flex-direction and flex-wrap
+
+justify-content - horizontally aligns the flex items when the items do not use all available space on the main-axis
 
 outline-style - specifies the style of the outline (dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden)
 outline-color - sets the color of an outline

@@ -606,3 +606,28 @@ a.shadow{
         color: blue;
     }
 }
+
+.flexContainer {
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-flow: row wrap; SHORTHAND PROPERTY */
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+
+    /* PERFECT CENTERING */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.flexContainer > div {
+    background-color: azure;
+    border: 1px solid black;
+    font-size: 30px;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    width: 70px;
+}
