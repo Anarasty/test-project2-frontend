@@ -666,3 +666,41 @@ a.shadow{
     flex-grow: 1;
     align-self: center;
 }
+
+
+/* TESTING GRID */
+.grid-container {
+    display: grid;
+    background: yellow;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+}
+
+.grid-container .grid-item {
+    background-color: aqua;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.grid-container .grid-item1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.grid-container2 {
+    display: grid;
+    background-color: antiquewhite;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 60px 100px;
+    padding: 10px;
+}
+
+.grid-container2 div {
+    background-color: aqua;
+    border: 1px solid black;
+    padding: 20px;
+}

@@ -116,6 +116,7 @@ column-rule-style - specifies the style of the rule between columns
 column-rule-width - specifies the width of the rule between columns
 column-span - specifies how many columns an element should span across
 column-width - specifies a suggested, optimal width for the columns
+column-gap - specifies the gap between the columns
 
 display -  sets whether an element is treated as a block or inline element
 
@@ -126,6 +127,25 @@ flex - shorthand property for the flex-grow, flex-shrink, and the flex-basis pro
 flex-basis - specifies the initial length of a flex item
 flex-grow - specifies how much a flex item will grow relative to the rest of the flex items inside the same container
 flex-shrink - specifies how much a flex item will shrink relative to the rest of the flex items inside the same container
+
+grid-area - either specifies a name for the grid item, or this property is a shorthand property for the grid-row-start, grid-column-start, grid-row-end, and grid-column-end properties
+grid-auto-columns - specifies a default column size
+grid-auto-flow - specifies how auto-placed items are inserted in the grid
+grid-auto-rows - specifies a default row size
+grid-column - a shorthand property for the grid-column-start and the grid-column-end properties
+grid-column-start - specifies where to start the grid item
+grid-column-end - specifies where to end the grid item
+grid-column-gap - specifies the size of the gap between columns
+grid-gap - a shorthand property for the grid-row-gap and grid-column-gap properties
+grid-row - a shorthand property for the grid-row-start and the grid-row-end properties
+grid-row-start - specifies where to start the grid item
+grid-row-end - specifies where to end the grid item
+grid-row-gap - specifies the size of the gap between rows
+grid-template - a shorthand property for the grid-template-rows, grid-template-columns and grid-areas properties
+grid-template-areas - specifies how to display columns and rows, using named grid items
+grid-template-columns - specifies the size of the columns, and how many columns in a grid layout
+grid-template-rows- specifies the size of the rows in a grid layout
+row-gap - specifies the gap between the grid rows
 
 justify-content - horizontally aligns the flex items when the items do not use all available space on the main-axis
 
